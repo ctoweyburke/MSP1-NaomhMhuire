@@ -26,7 +26,7 @@ body{
     background: url("../images/NMCrest.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 240px;
+    min-height: 100px;
     min-width: auto;
     background-size: cover;
     transition: all .5s ease-in-out;
@@ -38,7 +38,7 @@ body{
     font-size: 46px;
     font-weight: 600;
     font-style: italic;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ body{
     font-weight: 400;
     font-size:28px ;
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -55,6 +55,7 @@ h4{
     text-align: center;
     padding: 20px;
     color: cornflowerblue;
+    font-family: "Roboto", sans-serif;
 }
 
 .social-networks{
@@ -66,7 +67,7 @@ h4{
 }
 
 .social-networks i{
-    font-size: 250%;
+    font-size: 220%;
     margin: 1%;
     padding: 5%;
     color: #000;
@@ -80,7 +81,7 @@ h4{
 .menu-item a {
     width: 100%;
     text-decoration: none;
-    height: 80px;
+    height: 70px;
     text-align: center;
 
    }
@@ -106,4 +107,55 @@ h4{
     70px;}
 
 
+#hero-image{
+        height: 600px;
+        width: 100%;
+        background: url(../images/2020juniora.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: cornflowerblue;
+}
+
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
+
+#cover-text, #cover-text h4{
+    color: #fafafa;
+}
+
+#cover-text{
+    font-size: 140px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    width: 700px;
+    height: 100px;
+
+    padding-top: 50px;
+    
+
+    background-color: lightgray;
+
+    top: 30px;
+    right: 350px;
+    bottom: 10px;
+    position: absolute;
+}
 /*=============================================Footer=======*/
