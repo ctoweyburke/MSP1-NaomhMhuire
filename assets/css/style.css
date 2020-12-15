@@ -40,6 +40,7 @@ body{
     font-style: italic;
     margin-top: 30px;
     text-align: center;
+    text-shadow: 2px 2px
 }
 
 .title{
@@ -106,7 +107,6 @@ h4{
     height: 6
     70px;}
 
-
 #hero-image{
         height: 600px;
         width: 100%;
@@ -163,13 +163,31 @@ h4{
 
     border: 1px solid lightgray;
 }
+.training-heading{
+    text-align: center;
+    color:#fafafa;
+    font-size: 30px;
+    background-color: black;
+}
 
 #training{
-    background-image: url("../images/20x20ie.jpg");
+    background-image: url("../images/U8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
 }
+
+#training div{
+    color:#fafafa;
+    background-color: rgba(0, 0, 0, .2);
+    width: 19%;
+    height: 200px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 4px;
+}
 /*=============================================Footer=======*/
+
