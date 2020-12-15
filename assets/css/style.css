@@ -137,25 +137,39 @@ h4{
 }
 
 #cover-text, #cover-text h4{
-    color: #fafafa;
+    color: black;
 }
 
 #cover-text{
-    font-size: 140px;
-    font-weight: 700;
     font-family: "Montserrat", sans-serif;
+    font-size: 140px;
+    font-weight: bolder;
+    font-style: italic;
     text-transform: uppercase;
+    letter-spacing: 3px;
     width: 700px;
     height: 100px;
 
-    padding-top: 50px;
+    padding: 30px;
+    text-align: center;
     
 
-    background-color: lightgray;
+    background-color: white;
 
     top: 30px;
     right: 350px;
     bottom: 10px;
     position: absolute;
+
+    border: 1px solid lightgray;
+}
+
+#training{
+    background-image: url("../images/20x20ie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 /*=============================================Footer=======*/
