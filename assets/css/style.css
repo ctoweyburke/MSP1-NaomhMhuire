@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100;0,700;1,600&family=Open+Sans&family=Roboto:wght@100;400&display=swap');
 
-/*=============================================colors=======*/
+/*=============================================Colors=======*/
 
 body{
     background-color: lightgray;
@@ -21,12 +21,14 @@ body{
 .menu-item a i{
     color: #fafafa;
 }
-/*=============================================headings=======*/
+/*=============================================Headings=======*/
 .logo{
     background: url("../images/NMCrest.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 260px;
+    min-height: 240px;
+    min-width: auto;
+    background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -49,19 +51,59 @@ body{
     text-align: center;
 }
 
-.list-inline-item{
-    font-size: 20px;
+h4{
     text-align: center;
-    max-width: 23%;
-    height: 80px;
+    padding: 20px;
+    color: cornflowerblue;
 }
-..menu-item a i{
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color: #000;
+    
+}
+.list-inline-item:not(:last-child){
+   margin: 0;
+   
+    }
+
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    height: 80px;
+    text-align: center;
+
+   }
+
+.menu-item a i{
     display: block;
     font-size: 20px;
+    padding-top: 10px;
 }
+
 .menu-item span{
     display: block;
     width: 100%;
     padding-top: 5px;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
 }
+/*=============================================Hover.css=======*/
+.hvr-sweep-to-right:before{
+    background: cornflowerblue;
+    height: 6
+    70px;}
+
+
+/*=============================================Footer=======*/
