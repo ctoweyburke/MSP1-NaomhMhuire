@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100;0,700;1,600&family=Open+Sans&family=Roboto:wght@100;400&display=swap');
+
+/*=============================================colors=======*/
+
+body{
+    background-color: lightgray;
+}
+
+.ui-menu-color{
+    color: black;
+}
+
+.list-inline-item{
+    background-color: black;
+}
+
+.ui-menu-color{
+    color: cornflowerblue;
+}
+/*=============================================headings=======*/
+.logo{
+    background: url("../images/NMCrest.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 260px;
+    transition: all .10s ease-in-out;
+    -moz-transition: all .10s ease-in-out;
+    -webkit-transition: all .10s ease-in-out;
+}
+.name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title{
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size:28px ;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.list-inline-item{
+    font-size: 20px;
+    text-align: center;
+    max-width: 20%;
+}
