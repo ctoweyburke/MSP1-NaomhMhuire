@@ -216,7 +216,7 @@ h4{
 }
 
 .footer-headings{
-    font-family: "Montserrat", sans-serif; ;
+    font-family: "Montserrat", sans-serif; 
     color: cornflowerblue;
     font-weight: 600;
     text-align: center;
@@ -225,8 +225,8 @@ h4{
            }
   
 .footerimg{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     margin: 20px;
     }
 
@@ -234,6 +234,13 @@ h4{
 .container{
     background-color: cornflowerblue;
     width: 100%;
+}
+
+.photoheading{
+    text-align: center;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 40px;
+    font-style: italic;
 }
 
 .academy-pdf i{
