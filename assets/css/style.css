@@ -210,18 +210,9 @@ h4{
     font-weight: 600;
     text-align: center;
     min-height: 80px;
-    margin: 0;
-    padding: 2px;
-   
-}
-
-.inline-block{
-    display: inline-block;
-    }
-
-.oneclubimg{
-    margin: 5px;
-}
+    
+   }
+  
 /*=============================================Gallery Section=======*/
 .container{
     background-color: cornflowerblue;
