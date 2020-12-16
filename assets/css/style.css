@@ -68,22 +68,27 @@ h4{
 }
 
 .social-networks i{
-    font-size: 220%;
-    margin: 1%;
+    font-size: 210%;
+    margin: 2%;
     padding: 5%;
     color: #000;
     
 }
 .list-inline-item:not(:last-child){
    margin: 0;
-   
-    }
+       }
+    
+.list-inline-item{
+    width: 25%;
+    display: inline-block;
+}
 
 .menu-item a {
     width: 100%;
     text-decoration: none;
     height: 70px;
     text-align: center;
+  
 
    }
 
@@ -91,10 +96,11 @@ h4{
     display: block;
     font-size: 20px;
     padding-top: 10px;
+    
 }
 
 .menu-item span{
-    display: block;
+    display: inline-block;
     width: 100%;
     padding-top: 5px;
     text-transform: uppercase;
@@ -180,13 +186,44 @@ h4{
 }
 
 #training div{
-    color:#fafafa;
+    color:black;
+    background-image: url("../images/lgfapitch.jpg");
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, .2);
     width: 19%;
     height: 200px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 10px 0 0 10px;
     text-align: center;
-    margin: 4px;
+    margin: 7px;
+
 }
 /*=============================================Footer=======*/
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.footer-headings{
+    font-family: "Montserrat", sans-serif; ;
+    color: cornflowerblue;
+    font-weight: 600;
+    text-align: center;
+    min-height: 80px;
+    margin: 0;
+    padding: 2px;
+   
+}
+
+.inline-block{
+    display: inline-block;
+    }
+
+.oneclubimg{
+    margin: 5px;
+}
+/*=============================================Gallery Section=======*/
+.container{
+    background-color: cornflowerblue;
+    width: 100%;
+}
