@@ -89,7 +89,7 @@ h4{
 }
 
 .menuitem {
-    height: 70px;
+    height: 100px;
     text-align: center;
     padding:0;
         }
@@ -98,7 +98,7 @@ h4{
     width: 100%;
     text-decoration: none;
     color: #fafafa;
-    height: 70px;
+    height: 100px;
 }
 
 .menuitem a i{
@@ -220,10 +220,16 @@ h4{
     color: cornflowerblue;
     font-weight: 600;
     text-align: center;
-    min-height: 80px;
-    
-   }
+    min-height: 50px;
+    padding-top: 20px;
+           }
   
+.footerimg{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    }
+
 /*=============================================Gallery Section=======*/
 .container{
     background-color: cornflowerblue;
