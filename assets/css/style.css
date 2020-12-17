@@ -225,8 +225,8 @@ h4{
            }
   
 .footerimg{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin: 20px;
     }
 
@@ -255,4 +255,46 @@ h4{
 
 .academy-pdf i:hover{
     color: navy;
+}
+/*=============================================Contact Us=======*/
+.committee{
+    font-size: 30px;
+    font-weight: 700;
+    font-stretch: semi-condensed;
+    padding: 20px;
+    margin-bottom: 30px;
+   
+}
+
+.contact-text{
+    text-align:center;
+    background-color: cornflowerblue;
+    padding: 30px;
+  }
+
+  .contact-text h3{
+      color: #fafafa;
+      font-family: "Montserrat", sans-serif; 
+      font-weight: 900;
+      font-style: italic;
+  }
+
+  .contact-text h5{
+      color: black;
+      font-family: "Roboto", sans-serif; 
+  }
+  .request-info{
+      background-color: cornflowerblue;
+      
+        }
+.request-info h4{
+        text-align: center;
+        font-family: "Montserrat", sans-serif; 
+        font-weight: 900;
+        font-style: italic;
+        color: #fafafa;
+}
+
+.break-size{
+    padding: 50px;
 }
