@@ -24,12 +24,12 @@ body{
 /*=============================================Headings=======*/
 .logo{
     background: url("../images/NMCrest.jpg");
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100px;
+    max-height: 200px;
     min-width: auto;
-    background-size: cover;
-    transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
@@ -38,7 +38,7 @@ body{
     font-size: 46px;
     font-weight: 600;
     font-style: italic;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
     text-shadow: 2px 2px
 }
@@ -121,8 +121,7 @@ h4{
 /*=============================================Hover.css=======*/
 .hvr-sweep-to-right:before{
     background: cornflowerblue;
-    height: 6
-    70px;}
+    height:100px;}
 
 #hero-image{
         height: 600px;
@@ -185,31 +184,20 @@ h4{
     color:#fafafa;
     font-size: 30px;
     background-color: black;
-}
+    font-variant: small-caps;
+    }
 
-#training{
-    background-image: url("../images/U8.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
+.training-info{
+        height: 600px;
+        width: 100%;
+        background: url(../images/lgfapitch.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+  }
 
-#training div{
-    color:black;
-    background-image: url("../images/lgfapitch.jpg");
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, .2);
-    width: 19%;
-    height: 200px;
-    float: left;
-    padding: 10px 0 0 10px;
-    text-align: center;
-    margin: 7px;
+  
 
-}
-/*=============================================Footer=======*/
+ /*=========================================Footer=======*/
 
 .uppercase{
     text-transform: uppercase;
@@ -217,19 +205,25 @@ h4{
 
 .footer-headings{
     font-family: "Montserrat", sans-serif; 
-    color: cornflowerblue;
+    color:black;
     font-weight: 600;
     text-align: center;
     min-height: 50px;
     padding-top: 20px;
-           }
+               }
   
 .footerimg{
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     margin: 20px;
     }
 
+
+ p{
+     padding-left: 20px;
+     color: black;
+     text-align: center;
+ }   
 /*=============================================Gallery Section=======*/
 .container{
     background-color: cornflowerblue;
@@ -298,3 +292,4 @@ h4{
 .break-size{
     padding: 50px;
 }
+
