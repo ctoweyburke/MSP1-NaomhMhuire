@@ -2,6 +2,9 @@
 
 /*=========================================================================Colors=======*/
 
+.uppercase{
+    text-transform: uppercase;
+        }
 body{
     background-color: lightgray;
 }
@@ -125,34 +128,39 @@ h4{
 /*=============================================Hover.css=================================*/
 .hvr-sweep-to-right:before{
     background: cornflowerblue;
-    height:100px;}
-
-#hero-image{
-        height: 600px;
-        width: 100%;
-        background: url(../images/2020juniora.jpg); 
-        background-repeat: no-repeat;
-        background-position: center;
-
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
+    height:100px;
     }
 
-#hero-outer{
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+
+#bg-color-home{
     background-color: cornflowerblue;
+    padding: 20px;
+}
+.imgheader{
+    font-family: "roboto", sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: #fafafa;
+    background-color: cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width:0 auto;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#image-zoom{
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom{
     from{
-        transform: scale(1);
+        transform: scale(.7);
     }
     to{
-        transform: scale(1.3);
+        transform: scale(1);
     }
 }
 
@@ -182,9 +190,9 @@ h4{
     position: absolute;
 
     border: 1px solid lightgray;
+}
 
 
-  
 
  /*====================================================================Footer====================*/
 
