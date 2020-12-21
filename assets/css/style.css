@@ -21,6 +21,10 @@ body{
 .menu-item a i{
     color: #fafafa;
 }
+
+.bg-color-contact{
+    background-color: #000;
+}
 /*=============================================Headings=======*/
 .logo{
     background: url("../images/NMCrest.jpg");
@@ -197,7 +201,7 @@ h4{
 
   
 
- /*=========================================Footer=======*/
+ /*====================================================================Footer====================*/
 
 .uppercase{
     text-transform: uppercase;
@@ -224,43 +228,36 @@ h4{
      color: black;
      text-align: center;
  }   
-/*=============================================Gallery Section=======*/
+/*================================================================Gallery Section============================*/
 .carousel-control-prev-icon span, .carousel-control-next-icon{
     size: 30px;
     padding-top: 50px;
     color: chartreuse;
 }
-/*=============================================Contact Us=======*/
+/*===================================================================Contact Us================================*/
 .committee{
+    font-family: "Montserrat", sans-serif;     
     font-size: 30px;
     font-weight: 700;
     font-stretch: semi-condensed;
     padding: 20px;
     margin-bottom: 30px;
-   
-}
-
-.contact-text{
+   }
+.contact-text {
     text-align:center;
     background-color: cornflowerblue;
     padding: 30px;
   }
-
-  .contact-text h3{
+.contact-text h5,h6{
       color: #fafafa;
-      font-family: "Montserrat", sans-serif; 
+      font-family: "Roboto", sans-serif; 
       font-weight: 900;
       font-style: italic;
   }
 
-  .contact-text h5{
-      color: black;
-      font-family: "Roboto", sans-serif; 
-  }
-  .request-info{
+.request-info{
       background-color: cornflowerblue;
-      
-        }
+              }
 .request-info h4{
         text-align: center;
         font-family: "Montserrat", sans-serif; 
@@ -268,8 +265,32 @@ h4{
         font-style: italic;
         color: #fafafa;
 }
-
-.break-size{
-    padding: 50px;
+.request-info h6{
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.center-form{
+padding-top:10px;
+margin: 0 auto;
+max-width:70% ;
 }
 
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: red;
+}
+
+/*==============================================================================Media Query========================*/
+
+@media(min-width: 992px) {
+.center-form{
+    padding-top:20px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width:50% ;
+}
+}
