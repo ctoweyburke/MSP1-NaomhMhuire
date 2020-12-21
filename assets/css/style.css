@@ -280,10 +280,12 @@ max-width:70% ;
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
-    background-color: red;
-}
+    }
 
+button[type="submit"]:hover {
+  background-color: black;
+  color:red;
+}
 /*==============================================================================Media Query========================*/
 
 @media(min-width: 992px) {
