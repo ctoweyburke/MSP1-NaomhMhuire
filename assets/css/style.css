@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100;0,700;1,600&family=Open+Sans&family=Roboto:wght@100;400&display=swap');
 
-/*=============================================Colors=======*/
+/*=========================================================================Colors=======*/
 
 body{
     background-color: lightgray;
@@ -25,7 +25,7 @@ body{
 .bg-color-contact{
     background-color: #000;
 }
-/*=============================================Headings=======*/
+/*===================================================================Headings=======*/
 .logo{
     background: url("../images/NMCrest.jpg");
     background-size: contain;
@@ -122,7 +122,7 @@ h4{
     font-weight: 400;
     letter-spacing: 2px;
 }
-/*=============================================Hover.css=======*/
+/*=============================================Hover.css=================================*/
 .hvr-sweep-to-right:before{
     background: cornflowerblue;
     height:100px;}
@@ -182,22 +182,7 @@ h4{
     position: absolute;
 
     border: 1px solid lightgray;
-}
-.training-heading{
-    text-align: center;
-    color:#fafafa;
-    font-size: 30px;
-    background-color: black;
-    font-variant: small-caps;
-    }
 
-.training-info{
-        height: 600px;
-        width: 100%;
-        background: url(../images/lgfapitch.jpg); 
-        background-repeat: no-repeat;
-        background-position: center;
-  }
 
   
 
@@ -205,7 +190,7 @@ h4{
 
 .uppercase{
     text-transform: uppercase;
-}
+        }
 
 .footer-headings{
     font-family: "Montserrat", sans-serif; 
@@ -229,11 +214,7 @@ h4{
      text-align: center;
  }   
 /*================================================================Gallery Section============================*/
-.carousel-control-prev-icon span, .carousel-control-next-icon{
-    size: 30px;
-    padding-top: 50px;
-    color: chartreuse;
-}
+
 /*===================================================================Contact Us================================*/
 .committee{
     font-family: "Montserrat", sans-serif;     
@@ -296,3 +277,5 @@ button[type="submit"]:hover {
     max-width:50% ;
 }
 }
+
+/*==============================================================================Download========================*/
