@@ -59,12 +59,7 @@ body{
     text-align: center;
 }
 
-h4{
-    text-align: center;
-    padding: 20px;
-    color: cornflowerblue;
-    font-family: "Roboto", sans-serif;
-}
+
 
 .social-networks{
     text-align: center;
@@ -109,7 +104,7 @@ h4{
 }
 
 .menuitem a i{
-    padding-top: 10px;
+    padding-top: 20px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -223,14 +218,23 @@ h4{
  }   
 /*================================================================Gallery Section============================*/
 
+/*===NEED TO CENTER IMAGE ON GALLERY PAGE==*/
+.carousel-item{
+    width: 50%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
 /*===================================================================Contact Us================================*/
 .committee{
     font-family: "Montserrat", sans-serif;     
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
     font-stretch: semi-condensed;
     padding: 20px;
     margin-bottom: 30px;
+    font-style: italic;
    }
 .contact-text {
     text-align:center;
@@ -243,7 +247,7 @@ h4{
       font-weight: 900;
       font-style: italic;
   }
-
+  
 .request-info{
       background-color: cornflowerblue;
               }
@@ -287,3 +291,10 @@ button[type="submit"]:hover {
 }
 
 /*==============================================================================Download========================*/
+h4{
+    text-align: center;
+    padding: 20px;
+    color: cornflowerblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
