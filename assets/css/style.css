@@ -59,6 +59,12 @@ body{
     text-align: center;
 }
 
+.title h6{
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
 
 
 .social-networks{
@@ -197,6 +203,7 @@ body{
 
 .footer-headings{
     font-family: "Montserrat", sans-serif; 
+    font-style: italic;
     color:black;
     font-weight: 600;
     text-align: center;
@@ -229,7 +236,9 @@ body{
 /*===================================================================Contact Us================================*/
 .committee{
     font-family: "Montserrat", sans-serif;     
-    font-size: 36px;
+    font-size: 38px;
+    text-align: left;
+    color: #fafafa;
     font-weight: 700;
     font-stretch: semi-condensed;
     padding: 20px;
@@ -237,17 +246,39 @@ body{
     font-style: italic;
    }
 .contact-text {
-    text-align:center;
+    text-align:left;
     background-color: cornflowerblue;
     padding: 30px;
   }
-.contact-text h5,h6{
+.contact-text h5,p{
       color: #fafafa;
       font-family: "Roboto", sans-serif; 
       font-weight: 900;
       font-style: italic;
+      text-align: left;
   }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-inline-end: auto;
   
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+table-setup{
+    margin-top: 0;
+    
+}
+
 .request-info{
       background-color: cornflowerblue;
               }
@@ -297,4 +328,10 @@ h4{
     color: cornflowerblue;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
+}
+
+/*==============================================================================test================*/
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
