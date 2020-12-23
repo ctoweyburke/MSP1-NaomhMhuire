@@ -45,7 +45,7 @@ body{
     font-size: 46px;
     font-weight: 600;
     font-style: italic;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     text-shadow: 2px 2px
 }
@@ -54,21 +54,27 @@ body{
     font-family: "roboto", sans-serif;
     font-weight: 400;
     font-size:28px ;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
-.title h6{
+.about{
     font-size: 18px;
     font-style: italic;
     letter-spacing: 2px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: cornflowerblue;
+}
+.social-networks-heading{
+    padding-top: 40px;
+    text-align: center;
 }
 
-
 .social-networks{
-    text-align: center;
+    text-align: left;
+    padding-top: 10px;
 }
 
 .social-networks li{
@@ -210,7 +216,11 @@ body{
     min-height: 50px;
     padding-top: 20px;
                }
-  
+ .footer-text{
+     color: black;
+     font-family: "Roboto", sans-serif;
+     font-style: italic;
+ }
 .footerimg{
     width: 90px;
     height: 90px;
@@ -322,7 +332,7 @@ button[type="submit"]:hover {
 }
 
 /*==============================================================================Download========================*/
-h4{
+.btn-outline-secondary h4{
     text-align: center;
     padding: 20px;
     color: cornflowerblue;
@@ -330,8 +340,15 @@ h4{
     font-weight: 600;
 }
 
-/*==============================================================================test================*/
-.center {
-  margin-left: auto;
-  margin-right: auto;
+
+.btn-outline-secondary p{
+    color: black;
+    text-align: center;
+    letter-spacing: 4px;
+    }
+#download-items{
+    background-color: cornflowerblue;
+    color: #fafafa;
+    text-align: center;
+    padding: 15px;
 }
